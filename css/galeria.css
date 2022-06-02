@@ -1,0 +1,39 @@
+/* Nomalização */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 100px;
+  color: white;
+}
+body {
+  background: lightblue;
+}
+.polaroid {
+  background: white;
+  padding: 15px 15px 40px 15px;
+  box-shadow: 1px 5px 4px #333333;
+}
+
+.polaroid img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+.conteiner {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin: 40px;
+  padding: 20px;
+}
+.legenda {
+  margin: 10px 0px;
+  text-align: justify;
+}
